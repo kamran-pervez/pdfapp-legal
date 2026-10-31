@@ -32,8 +32,7 @@ In the EdifyPDF app, set:
 
 ## Before store release
 
-1. Replace every `support@example.com` placeholder with your public support email.
-2. Optionally set a specific governing-law country in `terms.html`.
-3. Update the Privacy Policy again if you enable Crashlytics or other network services.
+1. Optionally set a specific governing-law country in `terms.html`.
+2. Update the Privacy Policy again if you enable Crashlytics or other network services.
 
 These pages are written for EdifyPDF’s current on-device design. They are not legal advice; have them reviewed if you need formal counsel.
