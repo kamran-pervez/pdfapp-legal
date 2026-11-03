@@ -1,6 +1,7 @@
 # EdifyPDF — Legal pages
 
-Public Privacy Policy and Terms & Conditions for **EdifyPDF**.
+Public Privacy Policy, Terms & Conditions, and open-source / MPL source-offer
+pages for **EdifyPDF**.
 
 This repo is separate from the private app source so GitHub Pages can stay free.
 
@@ -11,28 +12,25 @@ This repo is separate from the private app source so GitHub Pages can stay free.
 | Home | [index.html](index.html) |
 | Privacy Policy | [privacy.html](privacy.html) |
 | Terms & Conditions | [terms.html](terms.html) |
+| Open source notices | [open-source.html](open-source.html) |
+| LibreOfficeKit source offer | [lok-source.html](lok-source.html) |
+| MPL modification package | [edifypdf-lok-mpl-source-26.2.6.3-vc131.tar.gz](edifypdf-lok-mpl-source-26.2.6.3-vc131.tar.gz) |
 
 ## Enable GitHub Pages
 
-1. Push `main` to GitHub.
-2. Open the repo on GitHub → **Settings** → **Pages**.
-3. **Source:** Deploy from a branch.
-4. **Branch:** `main` / folder: `/` (root) → Save.
-5. Wait a minute, then open:
-   - https://kamran-pervez.github.io/pdfapp-legal/
+1. Push to the branch GitHub Pages deploys from.
+2. GitHub → **Settings** → **Pages** → confirm branch/folder.
+3. Open:
    - https://kamran-pervez.github.io/pdfapp-legal/privacy.html
    - https://kamran-pervez.github.io/pdfapp-legal/terms.html
+   - https://kamran-pervez.github.io/pdfapp-legal/open-source.html
+   - https://kamran-pervez.github.io/pdfapp-legal/lok-source.html
 
 ## App wiring
 
-In the EdifyPDF app, set:
-
 - Privacy: `https://kamran-pervez.github.io/pdfapp-legal/privacy.html`
 - Terms: `https://kamran-pervez.github.io/pdfapp-legal/terms.html`
+- Open source: `https://kamran-pervez.github.io/pdfapp-legal/open-source.html`
+- LOK source offer: `https://kamran-pervez.github.io/pdfapp-legal/lok-source.html`
 
-## Before store release
-
-1. Optionally set a specific governing-law country in `terms.html`.
-2. Update the Privacy Policy again if you enable Crashlytics or other network services.
-
-These pages are written for EdifyPDF’s current on-device design. They are not legal advice; have them reviewed if you need formal counsel.
+Licence texts also appear in the app under Settings → About → Open source licences.

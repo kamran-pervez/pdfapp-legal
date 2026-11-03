@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LibreOfficeKit Source Offer — EdifyPDF</title>
+    <meta
+      name="description"
+      content="MPL 2.0 source code offer for LibreOfficeKit components distributed with EdifyPDF."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.95rem;
+        margin: 1rem 0;
+      }
+      td,
+      th {
+        border: 1px solid #ddd;
+        padding: 0.45rem 0.6rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background: #f6f6f6;
+      }
+      code {
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="open-source.html">Open Source</a>
+      </nav>
+    </header>
+    <main>
+      <article class="card">
+        <h1>LibreOfficeKit source offer</h1>
+        <p class="muted">Mozilla Public License 2.0 — Section 3.2</p>
+
+        <p>
+          EdifyPDF distributes LibreOfficeKit as Executable Form (native
+          libraries and assets) from the F-Droid LibreOffice Viewer APK.
+          Corresponding Source for the Viewer build and EdifyPDF’s modifications
+          is offered as follows.
+        </p>
+
+        <h2>Provenance</h2>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Value</th>
+          </tr>
+          <tr>
+            <td>Product</td>
+            <td>LibreOffice Viewer (F-Droid)</td>
+          </tr>
+          <tr>
+            <td>Version</td>
+            <td>26.2.6.3 (versionCode 131)</td>
+          </tr>
+          <tr>
+            <td>Build id</td>
+            <td><code>8221e31b3ac356a1623c672912a3d2b492f7e3d1</code></td>
+          </tr>
+          <tr>
+            <td>APK</td>
+            <td>
+              <a
+                href="https://f-droid.org/repo/org.documentfoundation.libreoffice_131.apk"
+                >org.documentfoundation.libreoffice_131.apk</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Source archive</td>
+            <td>
+              <a
+                href="https://f-droid.org/repo/org.documentfoundation.libreoffice_131_src.tar.gz"
+                >org.documentfoundation.libreoffice_131_src.tar.gz</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Git tag</td>
+            <td>
+              <a
+                href="https://git.libreoffice.org/core/+/refs/tags/libreoffice-26.2.6.3"
+                >libreoffice-26.2.6.3</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <h2>EdifyPDF modifications (MPL Covered Software)</h2>
+        <ul>
+          <li>
+            <code>LibreOfficeKit.java</code> — lazy native load / Service-friendly
+            init
+          </li>
+          <li>
+            <code>fonts.conf</code> — package paths for
+            <code>com.kkinnovationlabs.edifypdf</code>
+          </li>
+        </ul>
+        <p>
+          Download the modification package:
+          <a href="edifypdf-lok-mpl-source-26.2.6.3-vc131.tar.gz"
+            >edifypdf-lok-mpl-source-26.2.6.3-vc131.tar.gz</a
+          >
+        </p>
+      </article>
+    </main>
+    <footer>
+      <p>
+        © 2026 EdifyPDF ·
+        <a href="open-source.html">Open source notices</a> ·
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+</html>
